@@ -32,11 +32,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item"> 
                 <a class="nav-link active" aria-current="page" href="index.html"
                   >Inicio</a
                 >
-              </li>
+              </li> 
               <li class="nav-item">
                 <a class="nav-link" href="detalles.html">Detalles</a>
               </li>
@@ -49,9 +49,11 @@
       </nav>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-9">
+        <h3>Climas de hoy</h3>
+
+        <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
           <main>
             <article class="row" id="contenedorTarjetas">
               
@@ -60,37 +62,47 @@
             </article>
 
 
-            <section>
+            <section class="section aside--mod w-100">
+              <h3> Como Funciona? </h3>
+              <p> Estas tarjetas entregan informacion del dia actual, obtenida de la API de openweathermap</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
                 ab dicta explicabo quo hic voluptates odit nobis totam! Vitae
                 officiis similique unde vel sint? Modi odio eveniet illum omnis
                 obcaecati.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odit eos aliquid. Distinctio, quas corrupti voluptatem quia optio accusantium aut! Iusto veritatis, architecto, eaque eos officiis voluptate consequatur, incidunt assumenda unde veniam consequuntur odit inventore? Deserunt sed ipsa est odio ipsum nobis amet eligendi nemo numquam quos debitis aliquid autem animi, neque natus dicta error velit doloribus atque laudantium odit. Iusto non praesentium recusandae minus animi nobis! Repellat harum porro ratione hic, ipsum illum ex similique tempora sequi magni fugiat iste ipsa distinctio cumque fuga et nam iure? Aliquam, ipsum.
               </p>
             </section>
           </main>
         </div>
-        <div class="col-md-3">
-          <aside class="aside  aside--mod">
+        <div class="col-md-3 col-xl-3">
+          
+          <aside class="aside aside--mod">
+            <img src="assets/img/santiago.jpg" alt="ciudad">
+            <h3> Informacion relacionada</h3>
             <p class="aside__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
               quod eos, excepturi placeat, nesciunt, voluptatibus earum
               veritatis quos dignissimos hic explicabo ipsa sed suscipit
               consequuntur a! Libero autem laudantium assumenda!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae impedit officia omnis obcaecati nostrum accusamus, modi aspernatur suscipit nulla commodi dolorum quidem a enim nobis laudantium. Ut delectus provident quaerat dolore totam, quo, quod consequatur aut ipsum autem facilis labore! Odit iure omnis laboriosam quisquam maxime, assumenda modi placeat unde!
             </p>
           </aside>
         </div>
       </div>
     </div>
 
-    <footer class="bg-body-tertiary text-center text-lg-start">
+    <footer class="bg-body-tertiary text-center text-lg-start mt-auto">
       <!-- Copyright -->
       <div
-        class="text-center p-3"
+        class="row text-left p-3"
         style="background-color: rgba(0, 0, 0, 0.05)"
       >
-        © 2025 Copyright:
-        <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <p class="col">© 2025 Copyright:</p>
+        <p class="col"> Componentes: <a class="text-body" href="https://getbootstrap.com">Getbootstrap.com</a> </p>
+        <p class="col"> Colores: <a href="https://cssgradient.io"> Cssgradient.com</a> </p>
+        <p class="col"> API: <a href="https://openweathermap.org"> Openweathermap.org</a> </p>
+      </div>
       </div>
       <!-- Copyright -->
     </footer>
